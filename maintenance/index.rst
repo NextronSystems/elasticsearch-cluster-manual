@@ -18,6 +18,15 @@ It is recommended that you update one node at a time, in particular
 when a reboot is required. It is not necessary to remove the node
 from the cluster for the update.
 
+A reboot might be required when a new kernel was installed. You can
+check if the system needs a reboot with the following command:
+
+.. code-block:: console
+
+    nextron@es-node1:~$ file /var/run/reboot-required
+
+If the file exists, it is recommended to reboot your server.
+
 Checking Elasticsearch status
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
