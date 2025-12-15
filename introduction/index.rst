@@ -14,9 +14,9 @@ Normally, Elasticsearch is running locally on the Analysis
 Cockpit Server. However, when required Elasticsearch can easily
 be extended to become a cluster of almost arbitrary size.
 
-When running in Cluster mode, the Analysis Cockpit runs the
-underlying metadata database and acts as the cluster master,
-while all data is stored on the additional nodes.
+When running in cluster mode, the Analysis Cockpit is acting as
+the cluster master, while still storing event data. Any added cluster
+node will only store event data.
 
 When to consider Clustering
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
