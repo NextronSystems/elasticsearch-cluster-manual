@@ -6,7 +6,7 @@ Introduction
 Analysis Cockpit Architecture
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The ASGARD Analysis Cockpit uses an Elasticsearch database to
+The Analysis Cockpit uses an Elasticsearch database to
 store all event data. Each day worth of incoming events uses
 a single Elasticsearch index.
 
